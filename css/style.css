@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Padauk&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Padauk&Display', sans-serif;
+    text-align: center;
+    
+    
+}
+
+.intro-image{
+    
+    background-attachment: fixed;
+    background-image: url('../img/img1.jpg');
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.intro-image__text a{
+    background-color: #f1b571b9;
+    border: 2px solid #ce8d01 ;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 3rem;
+    text-transform: uppercase;
+    padding: 2rem;
+    color: #495c54;  
+    transition: all 0.5s ease-in-out;
+}
+.intro-image__text a:hover{
+    transform: scale(1.2)
+}
+
+.intro-text {
+    margin-top: -4rem;
+    clip-path: polygon(51% 24%, 100% 0, 100% 0, 100% 71%, 100% 100%, 32% 100%, 0 100%, 0 34%, 0 0);
+
+    background-color: #364637;
+    color:#c4b6af;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+    padding: 0 15rem;
+}
+.intro-text__textbox h3{
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.packaging-image{
+    background-attachment: fixed;
+    background-image: url("../img/img2.jpg");
+    background-size: cover;
+    background-position: bottom;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.packaging-image__text a{
+    background-color: #88c7d99f;
+    border: 2px solid #92154ba9 ;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 3rem;
+    text-transform: uppercase;
+    padding: 2rem;
+    color: #f8792f;  
+    transition: all 0.5s ease-in-out;
+}
+.packaging-image__text a:hover{
+    transform: scale(1.2)
+}
+
+.packaging-text{
+    background-color: #b92200;
+    color:#ffe8a8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    padding: 0 15rem;
+}
+
+.packaging_text__textbox h3{
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.tutorials-image{
+    background-attachment: fixed;
+    background-image: url("../img/img3.jpg");
+    background-size: cover;
+    background-position: top;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tutorials-image__text a{
+    background-color: #966b1669;
+    border: 2px solid #a77717a8 ;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 3rem;
+    text-transform: uppercase;
+    padding: 2rem;
+    color: #f6fae0;  
+    transition: all 0.5s ease-in-out;
+}
+.tutorials-image__text a:hover{
+    transform: scale(1.2);
+}
+
+.footer{
+    height: 250px;
+    background-color: #07040b;
+    color: #996402;
+    font-size: 2rem;
+    padding-top: 2rem;
+}
+
+.footer ul li{
+    display: inline-block;
+    margin: 1rem;
+
+}
+
+.footer ul li a{
+    color: #b38300;
+    text-decoration: none;
+}
+
+.footer ul li:hover{
+    transform: scale(1.2);
+}
